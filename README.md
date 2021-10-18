@@ -52,3 +52,9 @@ StackPanel 내 컨텐츠 컨트롤 추가 연습
 ![image](https://user-images.githubusercontent.com/23272977/137769817-338c9b70-5be5-4102-acea-163bb427ed6c.png)
 
 Page, Frame 컨트롤, Hyperlink를 통한 페이지 이동 처리 연습
+
+### [Exercise_1]
+
+![image](https://user-images.githubusercontent.com/23272977/137773345-b542e187-80e9-4fc0-9292-2d1952f5ccdc.png)
+
+Page와 TexBox, TextBlock, Frame 컨트롤을 이용하여 데이터 입력창 생성 연습
