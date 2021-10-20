@@ -1,0 +1,40 @@
+﻿<Window x:Class="WpfXamlApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfXamlApp"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <StackPanel>
+        <!-- 객체 생성  -->
+        <Label xmlns:bl="clr-namespace:WpfXamlApp.BusinessLogic">
+            <bl:Car/>
+        </Label>
+        
+        <!-- 속성 정의 -->
+        <!-- Class Car -->
+        <Label xmlns:bl="clr-namespace:WpfXamlApp.BusinessLogic">
+            <bl:Car Speed="100" Color="Red"/>
+        </Label>
+
+        <!-- Class Human -->
+        <Label xmlns:bl="clr-namespace:WpfXamlApp.BusinessLogic">
+            <bl:Human FirstName="Nick" HasDrivingLicense="True"/>
+        </Label>
+        
+        <!-- 명명 규칙 -->
+        <Label xmlns:bl="clr-namespace:WpfXamlApp.BusinessLogic">
+            <bl:Car x:Name="myCar" Speed="100" Color="Red"/>
+        </Label>
+        
+        <!-- 이벤트 -->
+        <Button Height="100" Click="Button_Click"/>
+
+        <Grid MouseLeftButtonDown="Grid_MouseLeftButtonDown">
+            <Button Height="50" MouseLeftButtonDown="Button_MouseLeftButtonDown"/>
+            <Button Height="50" MouseRightButtonDown="Button_MouseRightButtonDown"/>
+        </Grid>
+
+    </StackPanel>
+</Window>
