@@ -3,8 +3,17 @@
 ## 00. 참고
 
 * 레이아웃
-    * StackPanel
-        * 다수의 컨트롤을 쌓아서 표시하는 레이아웃
+   * StackPanel
+      * 다수의 컨트롤을 쌓아서 표시하는 레이아웃
+   * Panel
+   * Canvas
+      * ex) canvas.Top / canvas.Left ...
+   * DockPanel
+      * ex) DockPanel.Dock="Left" / "Right" / "Top" ...
+   * WrapPanel
+   * UniformGrid
+      * UI의 행과 열에 출력 내용을 자동으로 처리
+   * Grid
 * 컨트롤
     * TextBlock
     * TextBox
@@ -25,6 +34,10 @@
 * 사용자 정의 컨트롤
    * Page 
       * Window창과 비슷
+* 라이브러리
+   * NavigationService
+      * Page에서 URI의 객체를 탐색
+      * ex) NavigationService.Navigate(new Uri("/Pages/Contact.xaml", UriKind.Relative));
 
 ## 01. WPF Application 생성
 
