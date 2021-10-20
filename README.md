@@ -80,5 +80,11 @@ Xaml의 이해와 객체 생성, 속성 부여, 이벤트 처리 연습
 
 ![image](https://user-images.githubusercontent.com/23272977/138123095-f5120375-ece9-4020-bac5-dc9d0878414b.png)
 
-
 Page와 Button, TextBlock, Navigation을 이용하여 버튼 클릭시 Page 이동 처리 연습
+
+### [Exercise_3]
+
+![image](https://user-images.githubusercontent.com/23272977/138127324-65425d01-604f-400d-b836-84b57bc2d5b6.png)
+
+Page, ListBox, Button을 이용하여 토론 페이지 생성 처리 연습
+
