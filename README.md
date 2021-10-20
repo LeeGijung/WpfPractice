@@ -58,3 +58,14 @@ Page, Frame 컨트롤, Hyperlink를 통한 페이지 이동 처리 연습
 ![image](https://user-images.githubusercontent.com/23272977/137773345-b542e187-80e9-4fc0-9292-2d1952f5ccdc.png)
 
 Page와 TexBox, TextBlock, Frame 컨트롤을 이용하여 데이터 입력창 생성 연습
+
+### [WpfXamlApp]
+
+Xaml의 이해와 객체 생성, 속성 부여, 이벤트 처리 연습
+
+### [Exercise_2]
+
+![image](https://user-images.githubusercontent.com/23272977/138123095-f5120375-ece9-4020-bac5-dc9d0878414b.png)
+
+
+Page와 Button, TextBlock, Navigation을 이용하여 버튼 클릭시 Page 이동 처리 연습
