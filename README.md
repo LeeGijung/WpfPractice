@@ -3,8 +3,17 @@
 ## 00. 참고
 
 * 레이아웃
-    * StackPanel
-        * 다수의 컨트롤을 쌓아서 표시하는 레이아웃
+   * StackPanel
+      * 다수의 컨트롤을 쌓아서 표시하는 레이아웃
+   * Panel
+   * Canvas
+      * ex) canvas.Top / canvas.Left ...
+   * DockPanel
+      * ex) DockPanel.Dock="Left" / "Right" / "Top" ...
+   * WrapPanel
+   * UniformGrid
+      * UI의 행과 열에 출력 내용을 자동으로 처리
+   * Grid
 * 컨트롤
     * TextBlock
     * TextBox
@@ -25,6 +34,10 @@
 * 사용자 정의 컨트롤
    * Page 
       * Window창과 비슷
+* 라이브러리
+   * NavigationService
+      * Page에서 URI의 객체를 탐색
+      * ex) NavigationService.Navigate(new Uri("/Pages/Contact.xaml", UriKind.Relative));
 
 ## 01. WPF Application 생성
 
@@ -58,3 +71,14 @@ Page, Frame 컨트롤, Hyperlink를 통한 페이지 이동 처리 연습
 ![image](https://user-images.githubusercontent.com/23272977/137773345-b542e187-80e9-4fc0-9292-2d1952f5ccdc.png)
 
 Page와 TexBox, TextBlock, Frame 컨트롤을 이용하여 데이터 입력창 생성 연습
+
+### [WpfXamlApp]
+
+Xaml의 이해와 객체 생성, 속성 부여, 이벤트 처리 연습
+
+### [Exercise_2]
+
+![image](https://user-images.githubusercontent.com/23272977/138123095-f5120375-ece9-4020-bac5-dc9d0878414b.png)
+
+
+Page와 Button, TextBlock, Navigation을 이용하여 버튼 클릭시 Page 이동 처리 연습
